@@ -1,0 +1,54 @@
+body{
+    margin:0%;
+    padding: 0%;
+    background-image: url("../assets/uploadImage/Logo/banner_login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img{
+    position: absolute;
+    top: 15%;
+    left:5%;
+}
+
+.search-box{
+    position:absolute;
+    top:10%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+    background: #21b6a8;
+    height: 30px;
+    border-radius: 40px;
+    padding: 10px;
+    color: #ffff;
+    
+}
+
+.search-btn{
+    color: #116530;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+.search-txt{
+    border: none;
+ background: none;
+ outline: none;
+ font-size: 16px;  
+ line-height: 30px;
+ width: 300px;
+}
+
+#icon{
+    float:right;
+    padding-top: 7px; 
+    color:#116530;
+}
